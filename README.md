@@ -1,1 +1,1 @@
-# enph253-motor-controller
+# enph253-motor-controller-pcb
