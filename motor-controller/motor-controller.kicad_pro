@@ -413,8 +413,20 @@
       "Root"
     ],
     [
+      "8bf0a1e8-4227-49ee-854f-9e27e5e507a9",
+      "H-Bridge 0"
+    ],
+    [
       "b944a80a-e0f4-4329-afae-e1f6d5026d54",
-      "H-Bridge"
+      "H-Bridge 1"
+    ],
+    [
+      "b71eba93-a5ac-44ab-8657-fb36dfe25929",
+      "Optocoupler 0"
+    ],
+    [
+      "8df6f006-2f8a-45b2-b2f5-cd2a57657185",
+      "Optocoupler 1"
     ]
   ],
   "text_variables": {}
