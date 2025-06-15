@@ -917,7 +917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1060890d-3ee5-4920-88bf-bcb90f6804ba")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 105.41 43.18 0)
 			(effects
 				(font
@@ -991,7 +991,7 @@
 					(unit 1)
 				)
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/b71eba93-a5ac-44ab-8657-fb36dfe25929"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1006,7 +1006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5137b04e-50c6-40ad-862f-999f4ec3fd59")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 105.41 67.31 0)
 			(effects
 				(font
@@ -1080,7 +1080,7 @@
 					(unit 2)
 				)
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/b71eba93-a5ac-44ab-8657-fb36dfe25929"
-					(reference "U1")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -1096,7 +1096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f396fe7-d655-4c24-bd83-9564df4de6b8")
-		(property "Reference" "R4"
+		(property "Reference" "R14"
 			(at 118.11 58.4199 0)
 			(effects
 				(font
@@ -1150,11 +1150,11 @@
 		(instances
 			(project "motor-controller"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8df6f006-2f8a-45b2-b2f5-cd2a57657185"
-					(reference "R7")
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/b71eba93-a5ac-44ab-8657-fb36dfe25929"
-					(reference "R4")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1170,7 +1170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4169b6a-4a50-42e7-9354-16c8dae4a332")
-		(property "Reference" "R3"
+		(property "Reference" "R16"
 			(at 118.11 82.5499 0)
 			(effects
 				(font
@@ -1224,11 +1224,11 @@
 		(instances
 			(project "motor-controller"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8df6f006-2f8a-45b2-b2f5-cd2a57657185"
-					(reference "R8")
+					(reference "R20")
 					(unit 1)
 				)
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/b71eba93-a5ac-44ab-8657-fb36dfe25929"
-					(reference "R3")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1244,7 +1244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bca5f9a5-b822-4862-a1fb-60b1bedd2884")
-		(property "Reference" "R1"
+		(property "Reference" "R13"
 			(at 91.44 43.18 90)
 			(effects
 				(font
@@ -1296,11 +1296,11 @@
 		(instances
 			(project "motor-controller"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8df6f006-2f8a-45b2-b2f5-cd2a57657185"
-					(reference "R5")
+					(reference "R17")
 					(unit 1)
 				)
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/b71eba93-a5ac-44ab-8657-fb36dfe25929"
-					(reference "R1")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -1316,7 +1316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1fcefb7-c370-4ab2-bc3b-401f28b5b472")
-		(property "Reference" "R2"
+		(property "Reference" "R15"
 			(at 91.44 67.31 90)
 			(effects
 				(font
@@ -1368,11 +1368,11 @@
 		(instances
 			(project "motor-controller"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8df6f006-2f8a-45b2-b2f5-cd2a57657185"
-					(reference "R6")
+					(reference "R19")
 					(unit 1)
 				)
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/b71eba93-a5ac-44ab-8657-fb36dfe25929"
-					(reference "R2")
+					(reference "R15")
 					(unit 1)
 				)
 			)
