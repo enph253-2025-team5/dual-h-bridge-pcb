@@ -151,6 +151,375 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GS_Resistor_THT:R_250mW"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_250mW"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_250mW_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_250mW_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GS_Transistors:BJT_NPN_40V_200mA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N3904"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/2n3903-d.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN bipolar junction transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BJT NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BJT_NPN_40V_200mA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BJT_NPN_40V_200mA_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GS_Transistors:MOSFET_N-Ch_60V_0.23A_7500mR"
 			(pin_numbers
 				(hide yes)
@@ -757,10 +1126,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Short protection"
+	(text_box "Reverse low side PWM signal selection"
 		(exclude_from_sim no)
-		(at 40.64 33.02 0)
-		(size 39.37 59.69)
+		(at 16.51 16.51 0)
+		(size 73.66 40.64)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -775,47 +1144,79 @@
 			)
 			(justify left top)
 		)
-		(uuid "f8c254c3-12eb-4b45-97ea-486ba8243b2f")
+		(uuid "96fb2494-f83d-4138-8736-26e507c9eb27")
+	)
+	(text_box "Forward low side PWM signal selection"
+		(exclude_from_sim no)
+		(at 16.51 59.69 0)
+		(size 73.66 40.64)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cb9a2bc9-4656-43a8-bfb7-17135b5b6160")
 	)
 	(junction
-		(at 111.76 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0417b1df-95a0-44eb-82a3-2360f5c33e66")
-	)
-	(junction
-		(at 63.5 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a5cf100-74b0-4715-93b0-f10cdfd343cb")
-	)
-	(junction
-		(at 123.19 54.61)
+		(at 138.43 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bebb2d2-8b13-4716-a1c2-b25129396c16")
 	)
 	(junction
-		(at 160.02 54.61)
+		(at 124.46 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d45aa51c-eb86-419d-b999-d35fd84ead4d")
+		(uuid "5045d030-5064-45a0-baaf-de3d4e12404f")
 	)
 	(junction
-		(at 148.59 54.61)
+		(at 73.66 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c971eb1-1055-49fd-b21c-dae85e094131")
+	)
+	(junction
+		(at 179.07 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fa99977-7c4d-4f01-87be-8a75dbf6f6f1")
+	)
+	(junction
+		(at 39.37 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8f772cb-b138-4e9d-8daa-b986d7489bd7")
+	)
+	(junction
+		(at 39.37 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0bbe121-5d4e-489f-ad62-4b2a68541082")
+	)
+	(junction
+		(at 163.83 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4d3034b-9433-4d5e-9a8a-1bf76e8e0149")
 	)
 	(junction
-		(at 63.5 68.58)
+		(at 73.66 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f8ffa03b-9cd9-4658-9ae6-cad1a6ce54cc")
+		(uuid "f392ec5c-7200-4a08-8a6c-70ea6842c8ea")
 	)
 	(wire
 		(pts
-			(xy 148.59 58.42) (xy 148.59 54.61)
+			(xy 163.83 49.53) (xy 163.83 45.72)
 		)
 		(stroke
 			(width 0)
@@ -825,7 +1226,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 54.61) (xy 160.02 54.61)
+			(xy 154.94 57.15) (xy 171.45 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09356c97-937e-46bc-8d5c-5562bd9939da")
+	)
+	(wire
+		(pts
+			(xy 163.83 45.72) (xy 179.07 45.72)
 		)
 		(stroke
 			(width 0)
@@ -835,7 +1246,27 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 60.96) (xy 63.5 57.15)
+			(xy 39.37 33.02) (xy 39.37 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117eac8c-5e2b-488d-aa50-f222fc309973")
+	)
+	(wire
+		(pts
+			(xy 35.56 22.86) (xy 39.37 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ca5a05-e521-4176-bf76-cbb24f6b62ea")
+	)
+	(wire
+		(pts
+			(xy 73.66 54.61) (xy 73.66 50.8)
 		)
 		(stroke
 			(width 0)
@@ -845,7 +1276,27 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 77.47) (xy 111.76 73.66)
+			(xy 35.56 97.79) (xy 39.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0a0b05-4230-434e-b410-3ce597049da9")
+	)
+	(wire
+		(pts
+			(xy 39.37 22.86) (xy 39.37 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd889c3-dfcc-4058-b643-368c9d1a848e")
+	)
+	(wire
+		(pts
+			(xy 124.46 68.58) (xy 124.46 62.23)
 		)
 		(stroke
 			(width 0)
@@ -855,7 +1306,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 50.8) (xy 123.19 54.61)
+			(xy 138.43 41.91) (xy 138.43 45.72)
 		)
 		(stroke
 			(width 0)
@@ -865,7 +1316,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 50.8) (xy 139.7 50.8)
+			(xy 163.83 41.91) (xy 154.94 41.91)
 		)
 		(stroke
 			(width 0)
@@ -875,7 +1326,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 58.42) (xy 124.46 58.42)
+			(xy 138.43 49.53) (xy 139.7 49.53)
 		)
 		(stroke
 			(width 0)
@@ -885,37 +1336,57 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 52.07) (xy 55.88 52.07)
+			(xy 35.56 66.04) (xy 39.37 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "458ab5ea-1ee6-4982-84c1-012f43a4ad64")
+		(uuid "49cec7b5-e2f6-4a57-987c-252b8e461ac7")
 	)
 	(wire
 		(pts
-			(xy 52.07 43.18) (xy 63.5 43.18)
+			(xy 73.66 36.83) (xy 73.66 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4dab5003-b7b9-477f-8000-f942bfcce07b")
+		(uuid "4e2c7a3b-3640-4d40-90bd-b200b6977aaf")
 	)
 	(wire
 		(pts
-			(xy 52.07 77.47) (xy 55.88 77.47)
+			(xy 154.94 80.01) (xy 154.94 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5eff456e-974f-43f7-9825-90fed223dbf1")
+		(uuid "50ebbb88-8756-43f3-beaa-3318248ff3eb")
 	)
 	(wire
 		(pts
-			(xy 111.76 48.26) (xy 111.76 54.61)
+			(xy 39.37 36.83) (xy 73.66 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538ac8bf-06be-4834-a865-437d62791bb9")
+	)
+	(wire
+		(pts
+			(xy 39.37 66.04) (xy 39.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cdd74ff-30a5-4d37-8c93-e4cba454c1a6")
+	)
+	(wire
+		(pts
+			(xy 124.46 40.64) (xy 124.46 45.72)
 		)
 		(stroke
 			(width 0)
@@ -925,7 +1396,27 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 34.29) (xy 111.76 34.29)
+			(xy 39.37 54.61) (xy 39.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605cdc9b-c594-4f43-ab91-517664cb089b")
+	)
+	(wire
+		(pts
+			(xy 179.07 45.72) (xy 179.07 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67cd925e-2f9e-4058-b5eb-98996b71390f")
+	)
+	(wire
+		(pts
+			(xy 120.65 26.67) (xy 124.46 26.67)
 		)
 		(stroke
 			(width 0)
@@ -935,17 +1426,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 68.58) (xy 152.4 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c6670fb-2257-4ccc-b1b0-2dbb9f2229dc")
-	)
-	(wire
-		(pts
-			(xy 59.69 60.96) (xy 63.5 60.96)
+			(xy 69.85 54.61) (xy 73.66 54.61)
 		)
 		(stroke
 			(width 0)
@@ -955,7 +1436,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 50.8) (xy 148.59 54.61)
+			(xy 39.37 40.64) (xy 39.37 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77402456-b866-489a-9dc4-9c8c4f38818a")
+	)
+	(wire
+		(pts
+			(xy 163.83 41.91) (xy 163.83 45.72)
 		)
 		(stroke
 			(width 0)
@@ -965,7 +1456,37 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 77.47) (xy 160.02 77.47)
+			(xy 39.37 76.2) (xy 39.37 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d6df90-49ab-45c4-b896-2a91659257aa")
+	)
+	(wire
+		(pts
+			(xy 39.37 97.79) (xy 39.37 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d92a89-84c6-4719-8cfc-3049d65b9a5b")
+	)
+	(wire
+		(pts
+			(xy 39.37 80.01) (xy 73.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b28afc-2070-47f0-8957-9878a1f92422")
+	)
+	(wire
+		(pts
+			(xy 175.26 68.58) (xy 179.07 68.58)
 		)
 		(stroke
 			(width 0)
@@ -975,7 +1496,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 50.8) (xy 132.08 50.8)
+			(xy 138.43 41.91) (xy 147.32 41.91)
 		)
 		(stroke
 			(width 0)
@@ -985,17 +1506,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 54.61) (xy 111.76 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f2fa004-88b1-46b0-b576-725cd2edee49")
-	)
-	(wire
-		(pts
-			(xy 160.02 77.47) (xy 160.02 73.66)
+			(xy 179.07 68.58) (xy 179.07 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1005,17 +1516,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 43.18) (xy 104.14 43.18)
+			(xy 95.25 36.83) (xy 95.25 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac39d528-486e-4e43-afbd-977de87c1578")
+		(uuid "aa549dc7-fffa-478d-8f66-619ce0e38b83")
 	)
 	(wire
 		(pts
-			(xy 63.5 68.58) (xy 63.5 72.39)
+			(xy 73.66 80.01) (xy 73.66 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1025,7 +1536,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 54.61) (xy 123.19 54.61)
+			(xy 124.46 45.72) (xy 138.43 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1035,7 +1546,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 77.47) (xy 111.76 77.47)
+			(xy 120.65 68.58) (xy 124.46 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1045,7 +1556,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 34.29) (xy 160.02 38.1)
+			(xy 179.07 26.67) (xy 179.07 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1055,27 +1566,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 43.18) (xy 63.5 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3070ac6-9663-4f8d-9a4d-c452ce8541d0")
-	)
-	(wire
-		(pts
-			(xy 146.05 43.18) (xy 152.4 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6074ee0-7f73-4ce6-8e95-5e889768b9e4")
-	)
-	(wire
-		(pts
-			(xy 147.32 58.42) (xy 148.59 58.42)
+			(xy 162.56 49.53) (xy 163.83 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1085,7 +1576,17 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 86.36) (xy 63.5 86.36)
+			(xy 35.56 54.61) (xy 39.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d36bcef5-2e48-4120-8f1f-e3fe44f411a9")
+	)
+	(wire
+		(pts
+			(xy 69.85 97.79) (xy 73.66 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1095,7 +1596,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 86.36) (xy 63.5 82.55)
+			(xy 124.46 45.72) (xy 124.46 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4600f8b-118d-46f9-a194-20ec213dcab5")
+	)
+	(wire
+		(pts
+			(xy 73.66 97.79) (xy 73.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1105,17 +1616,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 68.58) (xy 104.14 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da6a4282-84d4-423b-9db5-bc0d6c641ebd")
-	)
-	(wire
-		(pts
-			(xy 156.21 34.29) (xy 160.02 34.29)
+			(xy 175.26 26.67) (xy 179.07 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1125,7 +1626,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 58.42) (xy 123.19 54.61)
+			(xy 138.43 49.53) (xy 138.43 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1135,7 +1636,27 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 34.29) (xy 111.76 38.1)
+			(xy 95.25 57.15) (xy 116.84 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e43493a8-c9dc-4b88-96a4-946bee569ed1")
+	)
+	(wire
+		(pts
+			(xy 73.66 80.01) (xy 154.94 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a3d89a-35d1-463d-99ab-caa209ce2593")
+	)
+	(wire
+		(pts
+			(xy 124.46 26.67) (xy 124.46 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1145,17 +1666,27 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 54.61) (xy 160.02 63.5)
+			(xy 73.66 36.83) (xy 95.25 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f045bfdd-be93-4aff-926c-dfea600572d8")
+		(uuid "ef51ac64-d024-4ff3-8bbe-137cd0e30d1e")
 	)
 	(wire
 		(pts
-			(xy 160.02 48.26) (xy 160.02 54.61)
+			(xy 39.37 80.01) (xy 39.37 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a23eae-f5ce-4e49-9f07-335c3eed0905")
+	)
+	(wire
+		(pts
+			(xy 179.07 40.64) (xy 179.07 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1163,30 +1694,49 @@
 		)
 		(uuid "f5198d6b-a486-41c0-b08b-cfe5de263928")
 	)
-	(wire
-		(pts
-			(xy 52.07 68.58) (xy 63.5 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffd9dcd2-fc61-4d0a-aaa1-655d5aa08c03")
-	)
-	(hierarchical_label "IN-"
-		(shape input)
-		(at 52.07 68.58 180)
+	(label "REV_LOW_GATE"
+		(at 100.33 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "0fc63e67-423a-47be-bd74-0f240ae8d48a")
+		(uuid "0666282f-9d80-4071-a0ca-1774526cb708")
+	)
+	(label "FOW_LOW_GATE"
+		(at 41.91 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09519eb8-2c1c-4719-8e40-9397150313db")
+	)
+	(label "REV_LOW_GATE"
+		(at 41.91 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24b3c7cf-fe1f-4ba7-98b9-129b2dbdf023")
+	)
+	(label "FOW_LOW_GATE"
+		(at 154.94 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ea2ec6d-fa5a-4c1f-bc88-9cd57f8e4dd4")
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 156.21 77.47 180)
+		(at 175.26 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1197,7 +1747,7 @@
 	)
 	(hierarchical_label "MOTOR-"
 		(shape output)
-		(at 147.32 58.42 180)
+		(at 162.56 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1206,20 +1756,9 @@
 		)
 		(uuid "32fe6172-4113-42c6-8fc3-5f7bf919c4d5")
 	)
-	(hierarchical_label "IN-"
-		(shape input)
-		(at 52.07 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "360384c0-75ad-430b-a711-633be50f3dbb")
-	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 59.69 86.36 180)
+		(at 69.85 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1230,7 +1769,40 @@
 	)
 	(hierarchical_label "VDD"
 		(shape input)
-		(at 107.95 34.29 180)
+		(at 35.56 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "682f07a6-52dd-448c-aa66-9039978b0fb3")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 35.56 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72372b40-79e3-4ee1-9332-6a6c45b4864a")
+	)
+	(hierarchical_label "FOW_HIGH_GATE"
+		(shape input)
+		(at 116.84 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "781a7a95-e451-449d-918a-49d840ffdcc1")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 120.65 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1241,7 +1813,7 @@
 	)
 	(hierarchical_label "MOTOR+"
 		(shape output)
-		(at 124.46 58.42 0)
+		(at 139.7 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1250,53 +1822,53 @@
 		)
 		(uuid "826e1115-48bd-490a-8327-09deac4db601")
 	)
-	(hierarchical_label "IN+"
+	(hierarchical_label "GND"
 		(shape input)
-		(at 52.07 43.18 180)
+		(at 35.56 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8cad46e8-4252-4652-a95a-1bc5792455e6")
+		(uuid "948a73bf-dfff-4cc4-b7c4-4d141a0a2660")
 	)
-	(hierarchical_label "IN+"
+	(hierarchical_label "PWM"
 		(shape input)
-		(at 146.05 68.58 180)
+		(at 24.13 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "94c6651e-70e7-4cde-a0c5-7a38f1f992cd")
+		(uuid "9e3ebd5c-89ac-4e17-82d3-9e150efbe9e9")
 	)
-	(hierarchical_label "IN-"
+	(hierarchical_label "GND"
 		(shape input)
-		(at 146.05 43.18 180)
+		(at 35.56 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ae662797-606a-4798-b837-3848a05976ab")
+		(uuid "c2e0b276-4fd0-4289-9ce5-4e0040a64a3d")
 	)
-	(hierarchical_label "IN+"
+	(hierarchical_label "REV_HIGH_SIG"
 		(shape input)
-		(at 52.07 77.47 180)
+		(at 66.04 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c53d8cd1-ea91-46b1-8a2a-5829dc59e16e")
+		(uuid "c38a1a1c-11d4-4ae3-bec6-ceb25fef751d")
 	)
 	(hierarchical_label "VDD"
 		(shape input)
-		(at 156.21 34.29 180)
+		(at 175.26 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1307,7 +1879,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 59.69 60.96 180)
+		(at 69.85 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1316,9 +1888,20 @@
 		)
 		(uuid "dd073a2c-6ec1-4fd3-8945-c46c9c6475d3")
 	)
+	(hierarchical_label "REV_HIGH_GATE"
+		(shape input)
+		(at 171.45 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd3745c4-c1d7-464e-ba70-334db82cecd0")
+	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 107.95 77.47 180)
+		(at 120.65 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1327,18 +1910,39 @@
 		)
 		(uuid "e081f1b4-6dee-4051-9a7d-73ea21030cf6")
 	)
+	(hierarchical_label "PWM"
+		(shape input)
+		(at 24.13 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f18b7317-c456-47b0-9b70-9c8b391ddd9f")
+	)
+	(hierarchical_label "FOW_HIGH_SIG"
+		(shape input)
+		(at 66.04 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2424fe2-42cb-4fa0-a805-8f03ec3906ce")
+	)
 	(symbol
 		(lib_id "GS_Transistors:MOSFET_N-Ch_60V_48A_23mR")
-		(at 109.22 68.58 0)
+		(at 121.92 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "016da386-7357-4fc4-b8b7-e1ab2a1b4fed")
 		(property "Reference" "Q10"
-			(at 115.57 67.3099 0)
+			(at 128.27 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +1951,7 @@
 			)
 		)
 		(property "Value" "IRFZ44"
-			(at 115.57 69.8499 0)
+			(at 128.27 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1960,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 114.3 66.04 0)
+			(at 127 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,7 +1969,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/irfz44epbf.pdf?fileId=5546d462533600a40153563b237a2206"
-			(at 109.22 81.28 0)
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1978,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 109.22 68.58 0)
+			(at 121.92 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,7 +1987,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 109.22 85.725 0)
+			(at 121.92 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +1996,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 109.22 87.63 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,7 +2005,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 109.22 83.82 0)
+			(at 121.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1410,22 +2014,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "6ba1f44f-688f-46f2-91c0-2eeb06cd933f")
+			(uuid "64f99784-a94a-468e-8dbb-595070c293d4")
 		)
 		(pin "1"
-			(uuid "1dc9277b-c479-4a4c-a8e6-5689a8918166")
+			(uuid "6be8c47c-0cf5-434f-b2d9-f0b175a1c352")
 		)
 		(pin "3"
-			(uuid "ed269913-c4c2-47bb-95c4-54ad3e22f0ff")
+			(uuid "00f4aee8-edad-4e88-a153-59f61e0abead")
 		)
 		(instances
 			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
-					(reference "Q10")
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
+					(reference "Q6")
 					(unit 1)
 				)
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/b944a80a-e0f4-4329-afae-e1f6d5026d54"
-					(reference "Q3")
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -1433,7 +2037,7 @@
 	)
 	(symbol
 		(lib_id "GS_Transistors:MOSFET_N-Ch_60V_48A_23mR")
-		(at 157.48 43.18 0)
+		(at 176.53 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1442,7 +2046,7 @@
 		(fields_autoplaced yes)
 		(uuid "053330b9-de43-4979-875d-fb1718d15b2b")
 		(property "Reference" "Q11"
-			(at 163.83 41.9099 0)
+			(at 182.88 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,7 +2055,7 @@
 			)
 		)
 		(property "Value" "IRFZ44"
-			(at 163.83 44.4499 0)
+			(at 182.88 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,7 +2064,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 162.56 40.64 0)
+			(at 181.61 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,7 +2073,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/irfz44epbf.pdf?fileId=5546d462533600a40153563b237a2206"
-			(at 157.48 55.88 0)
+			(at 176.53 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +2082,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 157.48 43.18 0)
+			(at 176.53 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +2091,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 157.48 60.325 0)
+			(at 176.53 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +2100,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 157.48 62.23 0)
+			(at 176.53 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +2109,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 157.48 58.42 0)
+			(at 176.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,22 +2118,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "13eb1f8f-b972-4c9e-b47f-b87d64522daf")
+			(uuid "268633c6-c9bd-4ca4-a18e-a7fef7ddd1ad")
 		)
 		(pin "1"
-			(uuid "8c21a143-2920-4f4a-8549-809347a04dae")
+			(uuid "a9856005-d0f5-45ec-b1f4-87e037ececb2")
 		)
 		(pin "3"
-			(uuid "b0d560e9-d45e-4ef9-b93e-5334da2ebdc7")
+			(uuid "f23ba717-7664-4879-995f-0b430362849f")
 		)
 		(instances
 			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
-					(reference "Q11")
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
+					(reference "Q14")
 					(unit 1)
 				)
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/b944a80a-e0f4-4329-afae-e1f6d5026d54"
-					(reference "Q2")
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -1537,7 +2141,7 @@
 	)
 	(symbol
 		(lib_id "GS_Transistors:MOSFET_N-Ch_60V_48A_23mR")
-		(at 157.48 68.58 0)
+		(at 176.53 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1546,7 +2150,7 @@
 		(fields_autoplaced yes)
 		(uuid "1445e8d2-97d4-412f-a7ec-4024c256b718")
 		(property "Reference" "Q12"
-			(at 163.83 67.3099 0)
+			(at 182.88 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +2159,7 @@
 			)
 		)
 		(property "Value" "IRFZ44"
-			(at 163.83 69.8499 0)
+			(at 182.88 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,7 +2168,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 162.56 66.04 0)
+			(at 181.61 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +2177,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/irfz44epbf.pdf?fileId=5546d462533600a40153563b237a2206"
-			(at 157.48 81.28 0)
+			(at 176.53 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +2186,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 157.48 68.58 0)
+			(at 176.53 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +2195,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 157.48 85.725 0)
+			(at 176.53 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,7 +2204,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 157.48 87.63 0)
+			(at 176.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +2213,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 157.48 83.82 0)
+			(at 176.53 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,22 +2222,316 @@
 			)
 		)
 		(pin "2"
-			(uuid "cc0ff688-4fae-4f93-a326-dd3b1d787bae")
+			(uuid "51060530-c64f-4ea7-9e13-ad7484fcd84f")
 		)
 		(pin "1"
-			(uuid "11bcfc8d-999d-4bb2-ad9b-cedc30870d0a")
+			(uuid "c8e91391-a118-459d-be09-4541345a7d7b")
 		)
 		(pin "3"
-			(uuid "336d8272-bb69-4fec-a44b-fe0d2883cd05")
+			(uuid "f4506d08-599d-4be1-aec8-c3449ba44336")
 		)
 		(instances
 			(project "motor-controller"
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
+					(reference "Q16")
+					(unit 1)
+				)
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
 					(reference "Q12")
 					(unit 1)
 				)
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/b944a80a-e0f4-4329-afae-e1f6d5026d54"
-					(reference "Q4")
+			)
+		)
+	)
+	(symbol
+		(lib_id "GS_Resistor_THT:R_250mW")
+		(at 27.94 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19a79db0-f81e-4832-a320-bf46cad4a5ce")
+		(property "Reference" "R11"
+			(at 27.94 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 27.94 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 28.194 44.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 27.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2903ac0-e994-474f-a51e-40f2d2a5454b")
+		)
+		(pin "2"
+			(uuid "3de08f0e-d2a9-45bc-a2ed-0cbde6ab7bde")
+		)
+		(instances
+			(project "motor-controller"
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GS_Resistor_THT:R_250mW")
+		(at 27.94 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e1b1f87-384c-416d-828e-5fcb457c00dd")
+		(property "Reference" "R13"
+			(at 27.94 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 27.94 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 28.194 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07fcff97-d3b5-4b29-9879-34a4f9135a3b")
+		)
+		(pin "2"
+			(uuid "03aa91d5-61ed-4402-9e0f-60e8b4406be9")
+		)
+		(instances
+			(project "motor-controller"
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GS_Transistors:BJT_NPN_40V_200mA")
+		(at 36.83 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52927f8c-5afa-4df8-9f92-8fc7efc6c0b1")
+		(property "Reference" "Q"
+			(at 41.91 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 41.91 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 41.91 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/2n3903-d.pdf"
+			(at 36.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN bipolar junction transistor"
+			(at 36.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "b085dfc2-28d7-43a1-9050-298b07bbfa09")
+		)
+		(pin "E"
+			(uuid "b0225557-a5af-4eb4-a8aa-edbf11569a87")
+		)
+		(pin "B"
+			(uuid "53e50c6e-36bd-48f4-a2fb-8e8f4a580cde")
+		)
+		(instances
+			(project "motor-controller"
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GS_Transistors:BJT_NPN_40V_200mA")
+		(at 36.83 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7364c3f0-a8d8-48ae-8b70-0fd73d8afd3a")
+		(property "Reference" "Q15"
+			(at 41.91 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 41.91 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/2n3903-d.pdf"
+			(at 36.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN bipolar junction transistor"
+			(at 36.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "40b04c48-02ca-48ef-ad03-e56dd51dd5f1")
+		)
+		(pin "E"
+			(uuid "7b028c5d-850c-435c-9766-94ad761dac42")
+		)
+		(pin "B"
+			(uuid "9a374b9e-cfa8-470e-992e-26cf954dc49c")
+		)
+		(instances
+			(project "motor-controller"
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
+					(reference "Q15")
 					(unit 1)
 				)
 			)
@@ -1641,7 +2539,7 @@
 	)
 	(symbol
 		(lib_id "GS_Capacitor_THT:C_THT_100nF")
-		(at 135.89 50.8 90)
+		(at 151.13 41.91 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1650,7 +2548,7 @@
 		(dnp no)
 		(uuid "788c627a-8562-40dc-8055-c1416aba937d")
 		(property "Reference" "C4"
-			(at 135.89 46.99 90)
+			(at 151.13 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,7 +2556,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 135.89 54.864 90)
+			(at 151.13 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +2564,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-			(at 113.538 50.8 0)
+			(at 128.778 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +2573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 122.174 50.8 0)
+			(at 137.414 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +2582,7 @@
 			)
 		)
 		(property "Description" "100nF Unpolarized Capacitor"
-			(at 120.142 50.8 0)
+			(at 135.382 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,19 +2591,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a7213dc-ad6a-46bb-b691-94c7080ec4ad")
+			(uuid "780bcab9-e995-4488-8974-ecd8ab3d188d")
 		)
 		(pin "2"
-			(uuid "b78488ff-11e4-4a99-a248-574f09e4a9d4")
+			(uuid "48450f7d-2da8-40e1-ba66-db0bf1e11efc")
 		)
 		(instances
 			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
-					(reference "C4")
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
+					(reference "C10")
 					(unit 1)
 				)
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/b944a80a-e0f4-4329-afae-e1f6d5026d54"
-					(reference "C?")
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -1713,7 +2611,7 @@
 	)
 	(symbol
 		(lib_id "GS_Transistors:MOSFET_N-Ch_60V_0.23A_7500mR")
-		(at 60.96 52.07 0)
+		(at 71.12 45.72 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1723,7 +2621,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f1b426d-24e8-4242-b4aa-e39c0ac64d4e")
 		(property "Reference" "Q7"
-			(at 67.31 53.3401 0)
+			(at 77.47 46.9901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +2630,7 @@
 			)
 		)
 		(property "Value" "VN2222L"
-			(at 67.31 50.8001 0)
+			(at 77.47 44.4501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +2639,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 66.04 91.186 0)
+			(at 76.2 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +2648,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/VN2222LL%20B082013.pdf"
-			(at 60.96 75.946 0)
+			(at 71.12 69.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,7 +2657,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
-			(at 60.96 88.646 0)
+			(at 71.12 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,22 +2666,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "2ff8ff8e-42ca-4209-a5c2-7e97ba3d59ae")
+			(uuid "e3e9b50f-c84a-473a-9ac0-1ee824c16da2")
 		)
 		(pin "1"
-			(uuid "04544cbf-f157-462a-8611-5448a7e09a67")
+			(uuid "4b33dfe3-54cd-41b6-842b-436a19abbd33")
 		)
 		(pin "2"
-			(uuid "796e08ec-a3fa-46f5-be8c-0deb670213ea")
+			(uuid "f9ce07e9-213c-4a30-a5dd-f16fd7df3f9c")
 		)
 		(instances
 			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
-					(reference "Q7")
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
+					(reference "Q3")
 					(unit 1)
 				)
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/b944a80a-e0f4-4329-afae-e1f6d5026d54"
-					(reference "Q5")
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -1791,7 +2689,7 @@
 	)
 	(symbol
 		(lib_id "GS_Transistors:MOSFET_N-Ch_60V_48A_23mR")
-		(at 109.22 43.18 0)
+		(at 121.92 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1800,7 +2698,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f2f24ea-cbb4-438f-9b6f-ff1c7b06ac3d")
 		(property "Reference" "Q9"
-			(at 115.57 41.9099 0)
+			(at 128.27 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +2707,7 @@
 			)
 		)
 		(property "Value" "IRFZ44"
-			(at 115.57 44.4499 0)
+			(at 128.27 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +2716,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 114.3 40.64 0)
+			(at 127 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +2725,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/irfz44epbf.pdf?fileId=5546d462533600a40153563b237a2206"
-			(at 109.22 55.88 0)
+			(at 121.92 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +2734,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 109.22 43.18 0)
+			(at 121.92 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,7 +2743,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 109.22 60.325 0)
+			(at 121.92 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,7 +2752,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 109.22 62.23 0)
+			(at 121.92 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +2761,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 109.22 58.42 0)
+			(at 121.92 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,22 +2770,91 @@
 			)
 		)
 		(pin "2"
-			(uuid "72b72e1d-d5e0-4b97-b00e-b9c8416e1ac5")
+			(uuid "e26b742f-4295-4219-a92f-048025c2cae4")
 		)
 		(pin "1"
-			(uuid "88a08a8c-6841-4186-b635-158663b5e0db")
+			(uuid "2d36fd99-d26a-467d-9971-8c948a5a10e7")
 		)
 		(pin "3"
-			(uuid "8bec99b3-06b2-4263-8fe7-7be1d2331030")
+			(uuid "06dd7a5c-5cd8-4a24-9726-7040590f36f6")
 		)
 		(instances
 			(project "motor-controller"
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
+					(reference "Q5")
+					(unit 1)
+				)
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
 					(reference "Q9")
 					(unit 1)
 				)
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/b944a80a-e0f4-4329-afae-e1f6d5026d54"
-					(reference "Q1")
+			)
+		)
+	)
+	(symbol
+		(lib_id "GS_Resistor_THT:R_250mW")
+		(at 39.37 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96638704-f5c9-43c1-a81a-810cea1ea4a3")
+		(property "Reference" "R"
+			(at 41.91 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 41.91 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 40.386 29.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 39.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b66b2921-8a3e-402b-9f1c-69f27ef10971")
+		)
+		(pin "2"
+			(uuid "442486c9-588f-4068-98dc-3ca8e3791c5f")
+		)
+		(instances
+			(project "motor-controller"
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -1895,7 +2862,7 @@
 	)
 	(symbol
 		(lib_id "GS_Transistors:MOSFET_N-Ch_60V_0.23A_7500mR")
-		(at 60.96 77.47 0)
+		(at 71.12 88.9 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1905,7 +2872,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cad1f7e-b758-4fd1-8406-959092adfdc9")
 		(property "Reference" "Q8"
-			(at 67.31 78.7401 0)
+			(at 77.47 90.1701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,7 +2881,7 @@
 			)
 		)
 		(property "Value" "VN2222L"
-			(at 67.31 76.2001 0)
+			(at 77.47 87.6301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1923,7 +2890,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 66.04 116.586 0)
+			(at 76.2 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +2899,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/VN2222LL%20B082013.pdf"
-			(at 60.96 101.346 0)
+			(at 71.12 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +2908,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
-			(at 60.96 114.046 0)
+			(at 71.12 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,22 +2917,95 @@
 			)
 		)
 		(pin "3"
-			(uuid "05182098-316b-4a41-9ec1-0b8efb9b88eb")
+			(uuid "37ad44cf-550d-4188-8d4c-dd7c70b3c2f0")
 		)
 		(pin "1"
-			(uuid "a5fe9516-8930-46ff-98c7-3f1901c77000")
+			(uuid "00133e98-40ec-4f81-8678-632551a3cc1d")
 		)
 		(pin "2"
-			(uuid "7e32164f-7855-447a-9030-a93a1d88cd6b")
+			(uuid "d96cf9bf-1fb3-4c4b-96da-60f14a92ad68")
 		)
 		(instances
 			(project "motor-controller"
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
+					(reference "Q4")
+					(unit 1)
+				)
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
 					(reference "Q8")
 					(unit 1)
 				)
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/b944a80a-e0f4-4329-afae-e1f6d5026d54"
-					(reference "Q6")
+			)
+		)
+	)
+	(symbol
+		(lib_id "GS_Resistor_THT:R_250mW")
+		(at 39.37 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3792883-5bf6-4534-8c34-a14b7ba414fb")
+		(property "Reference" "R14"
+			(at 41.91 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 41.91 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 40.386 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 39.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6332d155-7b08-4b8a-99c8-6b7eaa5441b6")
+		)
+		(pin "2"
+			(uuid "145c80a7-b960-4b3b-a410-ab582c0328d6")
+		)
+		(instances
+			(project "motor-controller"
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
+					(reference "R14")
 					(unit 1)
 				)
 			)
