@@ -2613,12 +2613,6 @@
 		(uuid "26ec420a-b350-4bab-9795-88d7a1b0946d")
 	)
 	(junction
-		(at 372.11 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e5ec030-0aa5-4cd9-8c4e-e62fc4dc0c98")
-	)
-	(junction
 		(at 179.07 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2655,34 +2649,16 @@
 		(uuid "5f71e54e-6c3f-4e03-9e23-63bc415e9071")
 	)
 	(junction
-		(at 59.69 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "600f6be9-a989-468c-ba95-28c7aee3152e")
-	)
-	(junction
 		(at 316.23 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68552a9a-a352-4541-91e1-e5c7ccc3bc4f")
 	)
 	(junction
-		(at 59.69 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77bba57c-f9d9-4242-88bf-a2f23a7f1540")
-	)
-	(junction
 		(at 119.38 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8666521f-a923-407d-8ac6-4caab21a0b9f")
-	)
-	(junction
-		(at 372.11 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86bcd86a-fb88-40d9-be8b-86786cee20e8")
 	)
 	(junction
 		(at 179.07 135.89)
@@ -2695,18 +2671,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9042d591-21ea-4344-9aad-5e2ef1edd6e3")
-	)
-	(junction
-		(at 59.69 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94f161b5-149a-4258-8f9e-bd83e38273f4")
-	)
-	(junction
-		(at 372.11 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ba8e706-f704-4974-975d-401541d5ca14")
 	)
 	(junction
 		(at 53.34 257.81)
@@ -2733,12 +2697,6 @@
 		(uuid "c46df9d2-4341-46f0-95a8-327b0d402039")
 	)
 	(junction
-		(at 372.11 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d473811e-1e39-442d-ad80-2cae5141f617")
-	)
-	(junction
 		(at 316.23 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2755,12 +2713,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0863dd1-9f82-464e-afb8-a5162f9ca8ec")
-	)
-	(junction
-		(at 59.69 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0ac785c-3f03-4958-a268-e659e5088e3a")
 	)
 	(junction
 		(at 40.64 267.97)
@@ -2816,7 +2768,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 118.11) (xy 74.93 118.11)
+			(xy 53.34 118.11) (xy 74.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2896,7 +2848,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 269.24) (xy 92.71 267.97)
+			(xy 105.41 269.24) (xy 105.41 267.97)
 		)
 		(stroke
 			(width 0)
@@ -3046,7 +2998,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 173.99) (xy 59.69 173.99)
+			(xy 53.34 173.99) (xy 74.93 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3103,16 +3055,6 @@
 			(type default)
 		)
 		(uuid "43ea925f-0080-4069-8fea-85dc81bee51f")
-	)
-	(wire
-		(pts
-			(xy 364.49 114.3) (xy 372.11 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4596c79b-b145-4d03-9812-742a564a2939")
 	)
 	(wire
 		(pts
@@ -3176,13 +3118,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 118.11) (xy 59.69 118.11)
+			(xy 67.31 267.97) (xy 82.55 267.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "564e7464-6821-4c98-843a-7137546b5d5d")
+		(uuid "53eac557-2113-4191-9797-3065eaddbcca")
 	)
 	(wire
 		(pts
@@ -3296,17 +3238,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 116.84) (xy 372.11 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7556109f-e961-4c43-8ea6-be555ca9c649")
-	)
-	(wire
-		(pts
-			(xy 364.49 116.84) (xy 372.11 116.84)
+			(xy 364.49 116.84) (xy 382.27 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3436,16 +3368,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 115.57) (xy 59.69 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bc9da8f-dc03-46ab-bec6-59a8bf336dc1")
-	)
-	(wire
-		(pts
 			(xy 372.11 127) (xy 364.49 127)
 		)
 		(stroke
@@ -3463,16 +3385,6 @@
 			(type default)
 		)
 		(uuid "9084e72c-fcaa-4d49-9d07-06f7596ce492")
-	)
-	(wire
-		(pts
-			(xy 59.69 176.53) (xy 74.93 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94132e42-9ed7-49be-a980-14169641337f")
 	)
 	(wire
 		(pts
@@ -3546,7 +3458,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 115.57) (xy 74.93 115.57)
+			(xy 50.8 115.57) (xy 74.93 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3616,7 +3528,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 168.91) (xy 364.49 168.91)
+			(xy 364.49 168.91) (xy 382.27 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3653,26 +3565,6 @@
 			(type default)
 		)
 		(uuid "b2062b07-a19c-4e7a-a94d-dec16c8d62dd")
-	)
-	(wire
-		(pts
-			(xy 372.11 168.91) (xy 382.27 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b31d96f5-5bee-4de3-8ac2-308261a90167")
-	)
-	(wire
-		(pts
-			(xy 59.69 173.99) (xy 74.93 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdd66a25-6f2a-4207-877a-633af646e9cc")
 	)
 	(wire
 		(pts
@@ -3846,7 +3738,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 176.53) (xy 59.69 176.53)
+			(xy 50.8 176.53) (xy 74.93 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3866,13 +3758,23 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 114.3) (xy 372.11 114.3)
+			(xy 364.49 114.3) (xy 382.27 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d325eb64-13b4-428a-8353-499a5ad0adbb")
+	)
+	(wire
+		(pts
+			(xy 82.55 267.97) (xy 82.55 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d349553f-c1a7-48a9-a517-6dc5e2c78da1")
 	)
 	(wire
 		(pts
@@ -3976,6 +3878,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 257.81) (xy 82.55 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a56bd4-9e8a-45ca-91f8-c067fe02f043")
+	)
+	(wire
+		(pts
 			(xy 250.19 137.16) (xy 271.78 137.16)
 		)
 		(stroke
@@ -4036,23 +3948,23 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 171.45) (xy 382.27 171.45)
+			(xy 82.55 257.81) (xy 67.31 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c090d9-2c88-4086-bc44-e4b0797831c4")
+	)
+	(wire
+		(pts
+			(xy 364.49 171.45) (xy 382.27 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f388a2d1-44e6-429f-a7aa-c9396c35f4c9")
-	)
-	(wire
-		(pts
-			(xy 372.11 171.45) (xy 364.49 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5332063-3569-4575-8efb-1d94bd75f326")
 	)
 	(wire
 		(pts
@@ -5291,7 +5203,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 269.24 0)
+		(at 105.41 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5299,7 +5211,7 @@
 		(dnp no)
 		(uuid "1fc420b6-84f3-4152-a7f9-48c6d794aa6d")
 		(property "Reference" "#PWR031"
-			(at 92.71 275.59 0)
+			(at 105.41 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,7 +5220,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 273.05 0)
+			(at 105.41 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 269.24 0)
+			(at 105.41 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,7 +5237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 269.24 0)
+			(at 105.41 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5246,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 269.24 0)
+			(at 105.41 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,72 +5461,6 @@
 			(project "motor-controller"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 59.69 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e89be5f-a6af-445f-b853-95523ad09838")
-		(property "Reference" "TP2"
-			(at 58.42 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MCU.PWM0"
-			(at 60.96 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 64.77 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 59.69 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7540c78-70a7-4fe1-9baa-2e86c6cffc72")
-		)
-		(instances
-			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6296,72 +6142,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 372.11 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d9e8057-8727-4f7a-9edf-b4c266eda35b")
-		(property "Reference" "TP3"
-			(at 370.84 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Motor0.-"
-			(at 373.38 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 377.19 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 377.19 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 372.11 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a4c6aca-9378-4ce5-8ca0-db4604852f4f")
-		)
-		(instances
-			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 134.62 102.87 0)
 		(mirror y)
@@ -6689,72 +6469,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 59.69 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a058eb8-71c1-4f98-9d3f-7cec93c3964b")
-		(property "Reference" "TP16"
-			(at 58.42 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MCU.DIR1"
-			(at 60.96 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 64.77 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 59.69 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5edaa86-4132-40e1-8ebe-20cc20cf74cc")
-		)
-		(instances
-			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 372.11 182.88 0)
 		(unit 1)
@@ -6957,7 +6671,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 92.71 267.97 0)
+		(at 105.41 267.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6965,7 +6679,7 @@
 		(dnp no)
 		(uuid "837589bc-3663-46e8-a5da-a6bf8216acef")
 		(property "Reference" "TP19"
-			(at 91.44 266.6999 0)
+			(at 104.14 266.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,7 +6688,7 @@
 			)
 		)
 		(property "Value" "MCU_GND"
-			(at 93.98 266.7 0)
+			(at 106.68 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6983,7 +6697,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 97.79 267.97 0)
+			(at 110.49 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6992,7 +6706,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 267.97 0)
+			(at 110.49 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7001,7 +6715,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 92.71 267.97 0)
+			(at 105.41 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7346,72 +7060,6 @@
 			(project "motor-controller"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 372.11 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f0ec757-d7de-4f63-8101-7b23b5114731")
-		(property "Reference" "TP14"
-			(at 370.84 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Motor1.-"
-			(at 373.38 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 377.19 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 377.19 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 372.11 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ba7aabe-6ea3-4d43-9420-97855c5bd646")
-		)
-		(instances
-			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
-					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -8886,138 +8534,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 59.69 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9e61fe6-5300-4703-9ab3-2ee29317d836")
-		(property "Reference" "TP15"
-			(at 58.42 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MCU.PWM1"
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 64.77 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 59.69 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08291b35-6551-44be-b57f-190b4c265ba8")
-		)
-		(instances
-			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 372.11 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dbed08ff-d2e6-4520-b203-46f15c73a70e")
-		(property "Reference" "TP13"
-			(at 370.84 167.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Motor1.+"
-			(at 373.38 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 377.19 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 377.19 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 372.11 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "adc5e460-d246-4370-bbad-09f44fd9298d")
-		)
-		(instances
-			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 67.31 124.46 0)
 		(unit 1)
@@ -9283,72 +8799,6 @@
 			(project "motor-controller"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 372.11 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2789080-2582-4276-9fd3-14e372ac2b34")
-		(property "Reference" "TP1"
-			(at 370.84 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Motor0.+"
-			(at 373.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 377.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 377.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 372.11 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6933e891-c755-49f9-9bf9-c8176165aa62")
-		)
-		(instances
-			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -9763,72 +9213,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 59.69 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0a6d1a2-0697-4e41-b698-8708a28c895f")
-		(property "Reference" "TP4"
-			(at 58.42 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MCU.DIR0"
-			(at 60.96 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 64.77 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 59.69 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5bc98993-f108-4add-8b50-d27ea196f316")
-		)
-		(instances
-			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "GS_Capacitor_THT:C_THT_100nF")
 		(at 256.54 265.43 0)
 		(unit 1)
@@ -9892,6 +9276,75 @@
 			(project "motor-controller"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GS_Capacitor_THT:C_THT_100nF")
+		(at 82.55 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6506b03-8af2-42e0-8909-527671db9594")
+		(property "Reference" "C12"
+			(at 86.36 261.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 86.36 264.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 82.55 240.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 249.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF Unpolarized Capacitor"
+			(at 82.55 247.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0256e15f-59eb-4ef5-afc9-5a0af045a05d")
+		)
+		(pin "1"
+			(uuid "a67fbde2-5b6a-44a1-be65-d40ae8a4d671")
+		)
+		(instances
+			(project "motor-controller"
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
+					(reference "C12")
 					(unit 1)
 				)
 			)

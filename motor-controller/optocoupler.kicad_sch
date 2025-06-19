@@ -1105,7 +1105,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 118.11 60.9599 0)
 			(effects
 				(font
@@ -1179,7 +1179,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 118.11 85.0899 0)
 			(effects
 				(font
