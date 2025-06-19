@@ -1110,7 +1110,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 0 -27.94 90)
 					(length 2.54)
 					(name "GND"
@@ -4411,71 +4411,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 276.86 269.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "073054e4-94c2-4e92-b3b8-18d1e6d3d71e")
-		(property "Reference" "#PWR035"
-			(at 276.86 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 276.86 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0610852b-ca79-4341-9b29-08e55690d516")
-		)
-		(instances
-			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 322.58 157.48 0)
 		(unit 1)
@@ -5153,73 +5088,6 @@
 			(project "motor-controller"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 276.86 259.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16828d15-eb54-480f-93b7-b98d0145ffe4")
-		(property "Reference" "H4"
-			(at 279.4 256.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3_PTH"
-			(at 279.4 259.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 276.86 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 276.86 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 276.86 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "783dfc61-a588-4503-bb15-4b63cc49dbfa")
-		)
-		(instances
-			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -5949,75 +5817,6 @@
 			(project "motor-controller"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GS_Capacitor_THT:C_THT_100nF")
-		(at 276.86 265.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4759ea0d-e5bd-4fca-8aab-b9202e63de7d")
-		(property "Reference" "C12"
-			(at 280.67 264.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 280.67 266.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-			(at 276.86 243.078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 276.86 251.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF Unpolarized Capacitor"
-			(at 276.86 249.682 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b6fb9c4e-529a-4376-8428-c7883fea730f")
-		)
-		(pin "1"
-			(uuid "451ea554-09e3-40e0-892c-4959a7c5ae3f")
-		)
-		(instances
-			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6819,6 +6618,71 @@
 			(project "motor-controller"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 214.63 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "765385f1-2db6-409f-9c8f-95c7ca907ef3")
+		(property "Reference" "#PWR032"
+			(at 214.63 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 214.63 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 214.63 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9e065e2-36c3-4111-b779-104131f5697c")
+		)
+		(instances
+			(project "motor-controller"
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8427,71 +8291,6 @@
 			(project "motor-controller"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
 					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 214.63 269.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba9844d1-cabc-4fae-93fc-6fd0a5957870")
-		(property "Reference" "#PWR032"
-			(at 214.63 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 214.63 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e533d04f-aede-471c-809e-5b7eda6b6ec2")
-		)
-		(instances
-			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10410,9 +10209,9 @@
 				(justify left)
 			)
 		)
-		(pin "GNDPWR" input
+		(pin "GND" input
 			(at 364.49 181.61 0)
-			(uuid "ed1eee13-192b-4314-962f-479f9d630e7f")
+			(uuid "071f1c93-2328-44b3-94a3-a6b64137d2ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10542,9 +10341,9 @@
 				(justify left)
 			)
 		)
-		(pin "GNDPWR" input
+		(pin "GND" input
 			(at 364.49 127 0)
-			(uuid "5a93e346-c821-4a90-a41f-a10fe259f611")
+			(uuid "42cc1837-fbb0-41e0-b2d4-c382f193d6ad")
 			(effects
 				(font
 					(size 1.27 1.27)

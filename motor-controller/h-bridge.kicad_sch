@@ -1179,7 +1179,7 @@
 		(uuid "5045d030-5064-45a0-baaf-de3d4e12404f")
 	)
 	(junction
-		(at 73.66 80.01)
+		(at 73.66 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c971eb1-1055-49fd-b21c-dae85e094131")
@@ -1191,13 +1191,19 @@
 		(uuid "8fa99977-7c4d-4f01-87be-8a75dbf6f6f1")
 	)
 	(junction
-		(at 39.37 80.01)
+		(at 73.66 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae0f7721-b017-435e-99bc-6df557749520")
+	)
+	(junction
+		(at 39.37 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8f772cb-b138-4e9d-8daa-b986d7489bd7")
 	)
 	(junction
-		(at 39.37 36.83)
+		(at 39.37 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0bbe121-5d4e-489f-ad62-4b2a68541082")
@@ -1207,12 +1213,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4d3034b-9433-4d5e-9a8a-1bf76e8e0149")
-	)
-	(junction
-		(at 73.66 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f392ec5c-7200-4a08-8a6c-70ea6842c8ea")
 	)
 	(wire
 		(pts
@@ -1246,7 +1246,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 33.02) (xy 39.37 36.83)
+			(xy 39.37 38.1) (xy 39.37 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1286,7 +1286,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 22.86) (xy 39.37 25.4)
+			(xy 39.37 22.86) (xy 39.37 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1346,17 +1346,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 36.83) (xy 73.66 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e2c7a3b-3640-4d40-90bd-b200b6977aaf")
-	)
-	(wire
-		(pts
-			(xy 154.94 80.01) (xy 154.94 57.15)
+			(xy 154.94 82.55) (xy 154.94 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1366,7 +1356,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 36.83) (xy 73.66 36.83)
+			(xy 39.37 39.37) (xy 73.66 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1376,7 +1366,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 66.04) (xy 39.37 68.58)
+			(xy 39.37 82.55) (xy 39.37 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593c4aa7-ddce-4a7a-88a7-940c3f0677f0")
+	)
+	(wire
+		(pts
+			(xy 39.37 66.04) (xy 39.37 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1436,7 +1436,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 40.64) (xy 39.37 36.83)
+			(xy 39.37 43.18) (xy 39.37 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1456,7 +1456,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 76.2) (xy 39.37 80.01)
+			(xy 39.37 81.28) (xy 39.37 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1476,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 80.01) (xy 73.66 80.01)
+			(xy 39.37 82.55) (xy 73.66 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1516,7 +1516,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 36.83) (xy 95.25 57.15)
+			(xy 95.25 39.37) (xy 95.25 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1526,7 +1526,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 80.01) (xy 73.66 83.82)
+			(xy 73.66 82.55) (xy 73.66 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1646,7 +1646,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 80.01) (xy 154.94 80.01)
+			(xy 73.66 82.55) (xy 154.94 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1666,23 +1666,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 36.83) (xy 95.25 36.83)
+			(xy 73.66 39.37) (xy 73.66 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2a2749-bcb4-47cd-82c9-d58cd3029c93")
+	)
+	(wire
+		(pts
+			(xy 73.66 39.37) (xy 95.25 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ef51ac64-d024-4ff3-8bbe-137cd0e30d1e")
-	)
-	(wire
-		(pts
-			(xy 39.37 80.01) (xy 39.37 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2a23eae-f5ce-4e49-9f07-335c3eed0905")
 	)
 	(wire
 		(pts
@@ -1705,7 +1705,7 @@
 		(uuid "0666282f-9d80-4071-a0ca-1774526cb708")
 	)
 	(label "FOW_LOW_GATE"
-		(at 41.91 80.01 0)
+		(at 41.91 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1715,7 +1715,7 @@
 		(uuid "09519eb8-2c1c-4719-8e40-9397150313db")
 	)
 	(label "REV_LOW_GATE"
-		(at 41.91 36.83 0)
+		(at 41.91 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1734,7 +1734,7 @@
 		)
 		(uuid "2ea2ec6d-fa5a-4c1f-bc88-9cd57f8e4dd4")
 	)
-	(hierarchical_label "GNDPWR"
+	(hierarchical_label "GND"
 		(shape input)
 		(at 175.26 68.58 180)
 		(effects
@@ -1756,7 +1756,7 @@
 		)
 		(uuid "32fe6172-4113-42c6-8fc3-5f7bf919c4d5")
 	)
-	(hierarchical_label "GNDPWR"
+	(hierarchical_label "GND"
 		(shape input)
 		(at 69.85 97.79 180)
 		(effects
@@ -1822,7 +1822,7 @@
 		)
 		(uuid "826e1115-48bd-490a-8327-09deac4db601")
 	)
-	(hierarchical_label "GNDPWR"
+	(hierarchical_label "GND"
 		(shape input)
 		(at 35.56 97.79 180)
 		(effects
@@ -1835,7 +1835,7 @@
 	)
 	(hierarchical_label "PWM"
 		(shape input)
-		(at 24.13 88.9 180)
+		(at 24.13 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1844,7 +1844,7 @@
 		)
 		(uuid "9e3ebd5c-89ac-4e17-82d3-9e150efbe9e9")
 	)
-	(hierarchical_label "GNDPWR"
+	(hierarchical_label "GND"
 		(shape input)
 		(at 35.56 54.61 180)
 		(effects
@@ -1877,7 +1877,7 @@
 		)
 		(uuid "d50c4302-7c07-4a6a-a769-0d6d3c604269")
 	)
-	(hierarchical_label "GNDPWR"
+	(hierarchical_label "GND"
 		(shape input)
 		(at 69.85 54.61 180)
 		(effects
@@ -1899,7 +1899,7 @@
 		)
 		(uuid "dd3745c4-c1d7-464e-ba70-334db82cecd0")
 	)
-	(hierarchical_label "GNDPWR"
+	(hierarchical_label "GND"
 		(shape input)
 		(at 120.65 68.58 180)
 		(effects
@@ -1912,7 +1912,7 @@
 	)
 	(hierarchical_label "PWM"
 		(shape input)
-		(at 24.13 45.72 180)
+		(at 24.13 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2245,7 +2245,7 @@
 	)
 	(symbol
 		(lib_id "GS_Resistor_THT:R_250mW")
-		(at 27.94 45.72 90)
+		(at 27.94 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2254,7 +2254,7 @@
 		(fields_autoplaced yes)
 		(uuid "19a79db0-f81e-4832-a320-bf46cad4a5ce")
 		(property "Reference" "R6"
-			(at 27.94 39.37 90)
+			(at 27.94 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +2262,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 27.94 41.91 90)
+			(at 27.94 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +2270,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 28.194 44.704 90)
+			(at 28.194 32.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +2279,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 45.72 0)
+			(at 27.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,7 +2288,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 27.94 45.72 0)
+			(at 27.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +2317,7 @@
 	)
 	(symbol
 		(lib_id "GS_Resistor_THT:R_250mW")
-		(at 27.94 88.9 90)
+		(at 27.94 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2326,7 +2326,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e1b1f87-384c-416d-828e-5fcb457c00dd")
 		(property "Reference" "R8"
-			(at 27.94 82.55 90)
+			(at 27.94 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +2334,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 27.94 85.09 90)
+			(at 27.94 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,7 +2342,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 28.194 87.884 90)
+			(at 28.194 75.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,7 +2351,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 88.9 0)
+			(at 27.94 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +2360,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 27.94 88.9 0)
+			(at 27.94 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +2389,7 @@
 	)
 	(symbol
 		(lib_id "GS_Transistors:BJT_NPN_40V_200mA")
-		(at 36.83 45.72 0)
+		(at 36.83 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2398,7 +2398,7 @@
 		(fields_autoplaced yes)
 		(uuid "52927f8c-5afa-4df8-9f92-8fc7efc6c0b1")
 		(property "Reference" "Q5"
-			(at 41.91 44.4499 0)
+			(at 41.91 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +2407,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 41.91 46.9899 0)
+			(at 41.91 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2416,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 41.91 43.18 0)
+			(at 41.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2425,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/2n3903-d.pdf"
-			(at 36.83 45.72 0)
+			(at 36.83 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2434,7 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 36.83 45.72 0)
+			(at 36.83 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2466,7 @@
 	)
 	(symbol
 		(lib_id "GS_Transistors:BJT_NPN_40V_200mA")
-		(at 36.83 88.9 0)
+		(at 36.83 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2475,7 +2475,7 @@
 		(fields_autoplaced yes)
 		(uuid "7364c3f0-a8d8-48ae-8b70-0fd73d8afd3a")
 		(property "Reference" "Q9"
-			(at 41.91 87.6299 0)
+			(at 41.91 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +2484,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 41.91 90.1699 0)
+			(at 41.91 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +2493,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 41.91 86.36 0)
+			(at 41.91 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2502,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/2n3903-d.pdf"
-			(at 36.83 88.9 0)
+			(at 36.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2511,7 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 36.83 88.9 0)
+			(at 36.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,7 +2797,7 @@
 	)
 	(symbol
 		(lib_id "GS_Resistor_THT:R_250mW")
-		(at 39.37 29.21 0)
+		(at 39.37 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2805,7 +2805,7 @@
 		(dnp no)
 		(uuid "96638704-f5c9-43c1-a81a-810cea1ea4a3")
 		(property "Reference" "R5"
-			(at 41.91 27.9399 0)
+			(at 41.91 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2814,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 41.91 30.4799 0)
+			(at 41.91 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +2823,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 40.386 29.464 90)
+			(at 40.386 47.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +2832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 29.21 0)
+			(at 39.37 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +2841,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 39.37 29.21 0)
+			(at 39.37 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +2948,7 @@
 	)
 	(symbol
 		(lib_id "GS_Resistor_THT:R_250mW")
-		(at 39.37 72.39 0)
+		(at 39.37 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2956,7 +2956,7 @@
 		(dnp no)
 		(uuid "c3792883-5bf6-4534-8c34-a14b7ba414fb")
 		(property "Reference" "R7"
-			(at 41.91 71.1199 0)
+			(at 41.91 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +2965,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 41.91 73.6599 0)
+			(at 41.91 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +2974,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 40.386 72.644 90)
+			(at 40.386 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +2983,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 72.39 0)
+			(at 39.37 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +2992,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 39.37 72.39 0)
+			(at 39.37 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
