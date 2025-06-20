@@ -1,1 +1,1 @@
-# enph253-motor-controller-pcb
+# enph253-dual-h-bridge-pcb
