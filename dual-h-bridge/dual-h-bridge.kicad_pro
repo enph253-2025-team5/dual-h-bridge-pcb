@@ -137,8 +137,8 @@
         "min_text_thickness": 0.0,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.25,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -517,7 +517,7 @@
       "plot": "${PROJECTNAME}-pcb-drawing.pdf",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": ".step",
+      "step": "${PROJECTNAME}.step",
       "svg": "",
       "vrml": ""
     },
