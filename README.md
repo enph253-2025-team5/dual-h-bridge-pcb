@@ -11,7 +11,7 @@ Intended motor battery configuration of 4S.
 
 ## Images
 ![dual-h-bridge-front](https://github.com/user-attachments/assets/3388f787-9b92-459c-8d73-0a7ebf54b359)
-![dual-h-bridge-back](https://github.com/user-attachments/assets/51493b0d-188c-4588-925b-199167422795)
+![dual-h-bridge-back](https://github.com/user-attachments/assets/41d2673e-8f9d-45f6-935b-dc5720f4d4b1)
 ![dual-h-bridge-orthographic](https://github.com/user-attachments/assets/326b64f2-1bd2-43ca-92aa-49003e03fca4)
 
 Designed by George Sleen.
