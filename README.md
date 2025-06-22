@@ -2,7 +2,7 @@
 
 Dual h-bridge design with a PWM signal and direction bit for controlling two motors.
 
-Similar to Greg Reid's 2025 h-bridge design, however this design doesn't rely on tripping the overcurrent protection  then recharging the timing capacitor. Instead, this design duplicates the incoming PWM signal on each low side h-bridge MOSFET gate, and forces the gate low on the same with the high side h-bridge MOSFET enhanced (avoiding shoot-through). 
+Similar to Greg Reid's 2025 h-bridge design, without relying on tripping the overcurrent protection. Instead, this design duplicates the incoming PWM signal, sends one to each of the low side h-bridge MOSFETs, then pulls the gate with the enhanced high side MOSFET low (avoiding shoot-through). 
 
 Based on many factors (motor inertia, gate driver response, optocoupler distortion) the PWM frequency should be limited on the order of 100 Hz.
 Intended motor battery configuration of 4S.
