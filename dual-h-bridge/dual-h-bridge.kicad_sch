@@ -4986,7 +4986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "GS_Connectors:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
 			(at 387.35 114.3 0)
 			(effects
 				(font
@@ -7657,7 +7657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "GS_Connectors:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
 			(at 387.35 168.91 0)
 			(effects
 				(font
@@ -9828,7 +9828,7 @@
 			)
 		)
 		(instances
-			(project "motor-controller"
+			(project "dual-h-bridge"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
 					(page "3")
 				)
@@ -9960,7 +9960,7 @@
 			)
 		)
 		(instances
-			(project "motor-controller"
+			(project "dual-h-bridge"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
 					(page "2")
 				)
@@ -10072,7 +10072,7 @@
 			)
 		)
 		(instances
-			(project "motor-controller"
+			(project "dual-h-bridge"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
 					(page "5")
 				)
@@ -10184,7 +10184,7 @@
 			)
 		)
 		(instances
-			(project "motor-controller"
+			(project "dual-h-bridge"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c"
 					(page "4")
 				)
