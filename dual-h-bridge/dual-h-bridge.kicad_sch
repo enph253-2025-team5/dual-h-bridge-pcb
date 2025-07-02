@@ -177,7 +177,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x05_Socket"
+		(symbol "Connector:Conn_01x06_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -193,8 +193,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x05_Socket"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x06_Socket"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -219,7 +219,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
+			(property "Description" "Generic connector, single row, 01x06, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -254,7 +254,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x05_Socket_1_1"
+			(symbol "Conn_01x06_Socket_1_1"
 				(polyline
 					(pts
 						(xy -1.27 5.08) (xy -0.508 5.08)
@@ -306,6 +306,18 @@
 				(polyline
 					(pts
 						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
 					)
 					(stroke
 						(width 0.1524)
@@ -367,6 +379,18 @@
 					(start 0 -5.588)
 					(mid -0.5058 -5.08)
 					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -458,6 +482,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2818,6 +2860,10 @@
 		(color 0 0 0 0)
 		(uuid "fa8cf04e-d013-475c-8938-e714d57153e9")
 	)
+	(no_connect
+		(at 39.37 153.67)
+		(uuid "d30798cf-e349-4946-b319-4bbd3c21d4fa")
+	)
 	(wire
 		(pts
 			(xy 182.88 149.86) (xy 182.88 166.37)
@@ -4617,7 +4663,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
+		(lib_id "Connector:Conn_01x06_Socket")
 		(at 34.29 161.29 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4626,7 +4672,7 @@
 		(dnp no)
 		(uuid "0fce9049-7085-48f3-bcdd-db39a1e215fb")
 		(property "Reference" "J4"
-			(at 30.988 160.02 0)
+			(at 30.988 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4680,7 @@
 			)
 		)
 		(property "Value" "MCU"
-			(at 30.988 162.56 0)
+			(at 30.988 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +4705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 34.29 161.29 0)
 			(effects
 				(font
@@ -4682,6 +4728,9 @@
 		)
 		(pin "5"
 			(uuid "c69788ba-2a7f-4276-afaa-79ae3a561a02")
+		)
+		(pin "6"
+			(uuid "841517ff-1a39-44d9-b545-98ba71b6900d")
 		)
 		(instances
 			(project "motor-controller"
