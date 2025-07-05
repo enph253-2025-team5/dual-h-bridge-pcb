@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "H-Bridge")
-		(date "2025-06-14")
-		(rev "A")
+		(date "2025-07-05")
+		(rev "v2.0.0")
 		(company "Team 5")
 		(comment 1 "George Sleen")
 	)
@@ -1200,7 +1200,7 @@
 		(at 39.37 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d8f772cb-b138-4e9d-8daa-b986d7489bd7")
+		(uuid "cf35406c-974a-4d88-b9ea-4fed92f2dc1c")
 	)
 	(junction
 		(at 39.37 39.37)
@@ -1246,7 +1246,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 38.1) (xy 39.37 39.37)
+			(xy 39.37 35.56) (xy 39.37 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1366,16 +1366,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 82.55) (xy 39.37 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "593c4aa7-ddce-4a7a-88a7-940c3f0677f0")
-	)
-	(wire
-		(pts
 			(xy 39.37 66.04) (xy 39.37 71.12)
 		)
 		(stroke
@@ -1396,7 +1386,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 54.61) (xy 39.37 50.8)
+			(xy 39.37 52.07) (xy 39.37 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1436,7 +1426,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 43.18) (xy 39.37 39.37)
+			(xy 39.37 41.91) (xy 39.37 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1453,26 +1443,6 @@
 			(type default)
 		)
 		(uuid "77b7c4b3-8235-4dd9-8029-0b0823e75651")
-	)
-	(wire
-		(pts
-			(xy 39.37 81.28) (xy 39.37 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88d6df90-49ab-45c4-b896-2a91659257aa")
-	)
-	(wire
-		(pts
-			(xy 39.37 97.79) (xy 39.37 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88d92a89-84c6-4719-8cfc-3049d65b9a5b")
 	)
 	(wire
 		(pts
@@ -1503,6 +1473,16 @@
 			(type default)
 		)
 		(uuid "9a48d16d-60b8-450b-a8c8-d49731b147c9")
+	)
+	(wire
+		(pts
+			(xy 39.37 92.71) (xy 39.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e25f97b-1924-401b-9271-5f788d32611e")
 	)
 	(wire
 		(pts
@@ -1553,6 +1533,16 @@
 			(type default)
 		)
 		(uuid "b6b2cef7-82c2-4a31-a56d-5298c9bcf9b2")
+	)
+	(wire
+		(pts
+			(xy 39.37 78.74) (xy 39.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f2d8ac-4aad-49ab-ad9c-15a6fb2f8723")
 	)
 	(wire
 		(pts
@@ -1833,17 +1823,6 @@
 		)
 		(uuid "948a73bf-dfff-4cc4-b7c4-4d141a0a2660")
 	)
-	(hierarchical_label "PWM"
-		(shape input)
-		(at 24.13 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e3ebd5c-89ac-4e17-82d3-9e150efbe9e9")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 35.56 54.61 180)
@@ -1865,6 +1844,17 @@
 			(justify right)
 		)
 		(uuid "c38a1a1c-11d4-4ae3-bec6-ceb25fef751d")
+	)
+	(hierarchical_label "PWM"
+		(shape input)
+		(at 24.13 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d049f224-c46e-4dbf-b069-eb1ba5e01b52")
 	)
 	(hierarchical_label "VDD"
 		(shape input)
@@ -1912,7 +1902,7 @@
 	)
 	(hierarchical_label "PWM"
 		(shape input)
-		(at 24.13 33.02 180)
+		(at 24.13 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2245,7 +2235,7 @@
 	)
 	(symbol
 		(lib_id "GS_Resistor_THT:R_250mW")
-		(at 27.94 33.02 90)
+		(at 27.94 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2254,7 +2244,7 @@
 		(fields_autoplaced yes)
 		(uuid "19a79db0-f81e-4832-a320-bf46cad4a5ce")
 		(property "Reference" "R6"
-			(at 27.94 26.67 90)
+			(at 27.94 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +2252,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 27.94 29.21 90)
+			(at 27.94 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +2260,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 28.194 32.004 90)
+			(at 28.194 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +2269,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 33.02 0)
+			(at 27.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,7 +2278,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 27.94 33.02 0)
+			(at 27.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,80 +2306,8 @@
 		)
 	)
 	(symbol
-		(lib_id "GS_Resistor_THT:R_250mW")
-		(at 27.94 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e1b1f87-384c-416d-828e-5fcb457c00dd")
-		(property "Reference" "R8"
-			(at 27.94 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 27.94 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 28.194 75.184 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 27.94 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07fcff97-d3b5-4b29-9879-34a4f9135a3b")
-		)
-		(pin "2"
-			(uuid "03aa91d5-61ed-4402-9e0f-60e8b4406be9")
-		)
-		(instances
-			(project "motor-controller"
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "GS_Transistors:BJT_NPN_40V_200mA")
-		(at 36.83 33.02 0)
+		(at 36.83 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2398,7 +2316,7 @@
 		(fields_autoplaced yes)
 		(uuid "52927f8c-5afa-4df8-9f92-8fc7efc6c0b1")
 		(property "Reference" "Q5"
-			(at 41.91 31.7499 0)
+			(at 41.91 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +2325,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 41.91 34.2899 0)
+			(at 41.91 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2334,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 41.91 30.48 0)
+			(at 41.91 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2343,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/2n3903-d.pdf"
-			(at 36.83 33.02 0)
+			(at 36.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2352,7 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 36.83 33.02 0)
+			(at 36.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2384,7 @@
 	)
 	(symbol
 		(lib_id "GS_Transistors:BJT_NPN_40V_200mA")
-		(at 36.83 76.2 0)
+		(at 36.83 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2475,7 +2393,7 @@
 		(fields_autoplaced yes)
 		(uuid "7364c3f0-a8d8-48ae-8b70-0fd73d8afd3a")
 		(property "Reference" "Q9"
-			(at 41.91 74.9299 0)
+			(at 41.91 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +2402,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 41.91 77.4699 0)
+			(at 41.91 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +2411,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 41.91 73.66 0)
+			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2420,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/2n3903-d.pdf"
-			(at 36.83 76.2 0)
+			(at 36.83 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2429,7 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 36.83 76.2 0)
+			(at 36.83 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,33 +2715,32 @@
 	)
 	(symbol
 		(lib_id "GS_Resistor_THT:R_250mW")
-		(at 39.37 46.99 0)
+		(at 27.94 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "96638704-f5c9-43c1-a81a-810cea1ea4a3")
-		(property "Reference" "R5"
-			(at 41.91 45.7199 0)
+		(fields_autoplaced yes)
+		(uuid "931bb901-fbac-4a9e-a625-c35848894094")
+		(property "Reference" "R21"
+			(at 27.94 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 41.91 48.2599 0)
+		(property "Value" "100k"
+			(at 27.94 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 40.386 47.244 90)
+			(at 28.194 86.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +2749,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 46.99 0)
+			(at 27.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +2758,80 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 39.37 46.99 0)
+			(at 27.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1eaf13ec-7564-4598-b1b0-1eb585eccf35")
+		)
+		(pin "2"
+			(uuid "d944bc66-f626-46f4-a65b-7b1215fe22d2")
+		)
+		(instances
+			(project "dual-h-bridge"
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GS_Resistor_THT:R_250mW")
+		(at 39.37 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96638704-f5c9-43c1-a81a-810cea1ea4a3")
+		(property "Reference" "R5"
+			(at 41.91 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 41.91 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 40.386 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 39.37 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +2938,7 @@
 	)
 	(symbol
 		(lib_id "GS_Resistor_THT:R_250mW")
-		(at 39.37 90.17 0)
+		(at 39.37 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2956,7 +2946,7 @@
 		(dnp no)
 		(uuid "c3792883-5bf6-4534-8c34-a14b7ba414fb")
 		(property "Reference" "R7"
-			(at 41.91 88.8999 0)
+			(at 41.91 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +2955,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 41.91 91.4399 0)
+			(at 41.91 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +2964,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 40.386 90.424 90)
+			(at 40.386 75.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +2973,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 90.17 0)
+			(at 39.37 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +2982,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 39.37 90.17 0)
+			(at 39.37 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
