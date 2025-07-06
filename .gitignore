@@ -26,3 +26,5 @@ fp-info-cache
 *.dsn
 *.ses
 
+# Release packages
+release
