@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "Optocoupler")
-		(date "2025-07-05")
-		(rev "v2.0.0")
+		(date "2025-07-06")
+		(rev "v2.0.1")
 		(company "Team 5")
 		(comment 1 "George Sleen")
 	)

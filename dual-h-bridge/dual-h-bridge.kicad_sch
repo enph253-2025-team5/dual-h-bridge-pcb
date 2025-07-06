@@ -5,9 +5,9 @@
 	(uuid "3cf627b4-179f-4b19-ad57-a5207e12b14c")
 	(paper "A3")
 	(title_block
-		(title "Motor Controller")
-		(date "2025-07-05")
-		(rev "v2.0.0")
+		(title "Dual H-Bridge")
+		(date "2025-07-06")
+		(rev "v2.0.1")
 		(company "Team 5")
 		(comment 1 "George Sleen")
 	)
