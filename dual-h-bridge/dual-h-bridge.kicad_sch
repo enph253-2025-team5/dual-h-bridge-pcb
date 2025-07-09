@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Dual H-Bridge")
-		(date "2025-07-06")
-		(rev "v2.0.1")
+		(date "2025-07-09")
+		(rev "v3.0.0")
 		(company "Team 5")
 		(comment 1 "George Sleen")
 	)
@@ -4158,16 +4158,6 @@
 		)
 		(uuid "24fa3ebc-4824-4348-8ad0-7a54700f47fa")
 	)
-	(label "PWM1"
-		(at 318.77 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2daf9fbf-39a6-4d5f-a2ed-f0afdf8c2e4b")
-	)
 	(label "Motor1.~{DIR}"
 		(at 218.44 133.35 180)
 		(effects
@@ -4187,6 +4177,16 @@
 			(justify right bottom)
 		)
 		(uuid "3cb52c12-b5ff-4b8f-8fd0-e7c93f6a1e51")
+	)
+	(label "Motor1.PWM"
+		(at 318.77 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ce188bf-a89a-48c6-9b43-dc7ba8102b92")
 	)
 	(label "MCU.DIR0"
 		(at 39.37 158.75 0)
@@ -4208,6 +4208,16 @@
 		)
 		(uuid "5032eb2e-45a3-4543-a082-9beccc03c5ad")
 	)
+	(label "Motor0.PWM"
+		(at 318.77 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "517e6406-34cd-48f9-b6bc-8865deadd698")
+	)
 	(label "Motor1.~{DIR}"
 		(at 318.77 173.99 0)
 		(effects
@@ -4227,16 +4237,6 @@
 			(justify left bottom)
 		)
 		(uuid "6a6ed138-50e4-4043-9c56-14bcf4e43830")
-	)
-	(label "PWM0"
-		(at 318.77 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7325e8a1-e52c-45c1-8980-eb39f0aec6af")
 	)
 	(label "MCU.DIR1"
 		(at 39.37 163.83 0)

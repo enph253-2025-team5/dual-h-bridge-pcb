@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "Optocoupler")
-		(date "2025-07-06")
-		(rev "v2.0.1")
+		(date "2025-07-09")
+		(rev "v3.0.0")
 		(company "Team 5")
 		(comment 1 "George Sleen")
 	)
@@ -606,10 +606,10 @@
 		)
 	)
 	(junction
-		(at 115.57 54.61)
+		(at 119.38 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bbcda568-558b-460b-a406-1e76aceefad3")
+		(uuid "79b374f1-023b-4b8b-a4de-9a50cade3b5d")
 	)
 	(junction
 		(at 115.57 78.74)
@@ -629,7 +629,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 54.61) (xy 113.03 54.61)
+			(xy 113.03 54.61) (xy 119.38 54.61)
 		)
 		(stroke
 			(width 0)
@@ -646,16 +646,6 @@
 			(type default)
 		)
 		(uuid "2f7b46eb-46e6-4e2a-b2bc-dfc79f04ed82")
-	)
-	(wire
-		(pts
-			(xy 115.57 63.5) (xy 115.57 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33bce1d8-c9f5-4079-bc04-970c9e2f6103")
 	)
 	(wire
 		(pts
@@ -676,6 +666,26 @@
 			(type default)
 		)
 		(uuid "5902ac22-d96a-4733-a70a-6088da73fc3b")
+	)
+	(wire
+		(pts
+			(xy 132.08 49.53) (xy 119.38 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cefa339-6c1b-438b-86ac-c3bef19d68e7")
+	)
+	(wire
+		(pts
+			(xy 119.38 38.1) (xy 119.38 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602e8782-3c14-42d5-87a3-e144ca92b880")
 	)
 	(wire
 		(pts
@@ -709,13 +719,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 49.53) (xy 119.38 49.53)
+			(xy 119.38 49.53) (xy 113.03 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "852c568c-ab36-44c7-8f35-e99a5933161d")
+		(uuid "8975be68-453d-4cde-b624-edd28fa4c777")
 	)
 	(wire
 		(pts
@@ -759,23 +769,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 55.88) (xy 115.57 54.61)
+			(xy 119.38 48.26) (xy 119.38 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5c256ef-74f6-4d42-9f29-4a7d4cce5d32")
-	)
-	(wire
-		(pts
-			(xy 115.57 54.61) (xy 119.38 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc2a3b33-9118-4e93-bd01-9a65015415df")
+		(uuid "af0c8d95-9ab0-46f6-a3a0-7f6256b44c9d")
 	)
 	(wire
 		(pts
@@ -787,19 +787,9 @@
 		)
 		(uuid "ff21ba72-2edf-4d0c-8aae-93764582e0c4")
 	)
-	(wire
-		(pts
-			(xy 115.57 64.77) (xy 119.38 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff36c03a-362c-4e62-bad6-1516a72596ba")
-	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 119.38 49.53 0)
+		(at 119.38 38.1 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -821,7 +811,7 @@
 	)
 	(hierarchical_label "OUT_A"
 		(shape output)
-		(at 119.38 54.61 0)
+		(at 132.08 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -854,7 +844,7 @@
 	)
 	(hierarchical_label "GNDPWR"
 		(shape input)
-		(at 119.38 64.77 0)
+		(at 119.38 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1088,7 +1078,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 115.57 59.69 180)
+		(at 119.38 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1097,7 +1087,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f396fe7-d655-4c24-bd83-9564df4de6b8")
 		(property "Reference" "R14"
-			(at 118.11 58.4199 0)
+			(at 121.92 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,7 +1096,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 118.11 60.9599 0)
+			(at 121.92 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +1105,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 114.554 59.436 90)
+			(at 118.364 44.196 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,7 +1114,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 59.69 0)
+			(at 119.38 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1123,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 115.57 59.69 0)
+			(at 119.38 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)

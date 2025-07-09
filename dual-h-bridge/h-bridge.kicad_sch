@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "H-Bridge")
-		(date "2025-07-06")
-		(rev "v2.0.1")
+		(date "2025-07-09")
+		(rev "v3.0.0")
 		(company "Team 5")
 		(comment 1 "George Sleen")
 	)
