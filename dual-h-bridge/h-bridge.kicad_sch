@@ -7,7 +7,7 @@
 	(title_block
 		(title "H-Bridge")
 		(date "2025-07-09")
-		(rev "v3.0.0")
+		(rev "v4.0.0")
 		(company "Team 5")
 		(comment 1 "George Sleen")
 	)
@@ -2251,7 +2251,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 27.94 43.18 90)
 			(effects
 				(font
@@ -2731,7 +2731,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 27.94 83.82 90)
 			(effects
 				(font
@@ -2803,7 +2803,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 41.91 33.0199 0)
 			(effects
 				(font
@@ -2954,7 +2954,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 41.91 76.1999 0)
 			(effects
 				(font

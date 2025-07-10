@@ -10,7 +10,7 @@
 	(title_block
 		(title "Dual H-Bridge")
 		(date "2025-07-09")
-		(rev "v3.0.0")
+		(rev "v3.0.1")
 		(company "Team 5")
 		(comment 1 "George Sleen")
 	)
@@ -406,7 +406,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 6.35 0 0)
 			(layer "F.SilkS")
 			(uuid "ad8c295a-17d1-4e41-8e9c-2bf72aa15a21")
@@ -580,7 +580,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 6.35 0 0)
 			(layer "F.SilkS")
 			(uuid "8cf53621-1122-417b-b591-02612b00569a")
@@ -754,7 +754,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 6.35 0 90)
 			(layer "F.SilkS")
 			(uuid "af0875d4-0cdb-4666-a5ec-10e4abdf5f3f")
@@ -3006,7 +3006,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 6.35 0 90)
 			(layer "F.SilkS")
 			(uuid "95c2fa1f-0051-4ed6-bd0a-014cf0e1eaf8")
@@ -3180,7 +3180,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 6.35 0 0)
 			(layer "F.SilkS")
 			(uuid "4f61668d-49a9-4fc8-8a2a-ee3eea381c32")
@@ -5055,7 +5055,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 6.35 0 0)
 			(layer "F.SilkS")
 			(uuid "c1a8e947-3b09-4118-bff7-a4ab6a7c23a4")
@@ -5412,7 +5412,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 6.35 0 0)
 			(layer "F.SilkS")
 			(uuid "ad772720-ff65-49ab-8ba2-cbf6faa9da82")
@@ -5952,7 +5952,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 6.35 0 0)
 			(layer "F.SilkS")
 			(uuid "c002d304-8ffe-4965-b80c-0f4430b26609")
@@ -6126,7 +6126,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 6.35 0 0)
 			(layer "F.SilkS")
 			(uuid "f5ac153e-8f51-4d81-b230-ebc1bd9043e5")
@@ -7865,7 +7865,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 6.35 0 0)
 			(layer "F.SilkS")
 			(uuid "2dc37df2-3785-4cb1-9cca-37986ad567f9")
@@ -9031,7 +9031,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 6.35 0 0)
 			(layer "F.SilkS")
 			(uuid "68ffd319-4979-471c-909a-a9697c89248f")
@@ -9480,7 +9480,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 6.35 0 0)
 			(layer "F.SilkS")
 			(uuid "cbb6a54f-1ad4-458d-a9e5-686cf0ef801a")
@@ -10306,7 +10306,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 6.35 0 90)
 			(layer "F.SilkS")
 			(uuid "54467b50-7108-41c7-aa5e-127a1f237aa1")
@@ -11030,7 +11030,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 6.35 0 0)
 			(layer "F.SilkS")
 			(uuid "8795c5e6-93dd-4a66-b7e8-30a6c8cb9c49")
@@ -11204,7 +11204,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 6.35 0 0)
 			(layer "F.SilkS")
 			(uuid "94b8bfb2-4e64-493d-ba6a-782b5903a816")
@@ -14128,7 +14128,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 6.35 0 90)
 			(layer "F.SilkS")
 			(uuid "93374e42-58cf-46f5-a3c3-fd5210c901d5")
