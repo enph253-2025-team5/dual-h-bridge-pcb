@@ -12,7 +12,7 @@
 		(comment 1 "George Sleen")
 	)
 	(lib_symbols
-		(symbol "GS_Capacitor_THT:C_THT_100nF"
+		(symbol "GS_Capacitor_THT:C_THT_Ceramic_Disk"
 			(pin_numbers
 				(hide yes)
 			)
@@ -31,7 +31,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "100nF"
+			(property "Value" "C_Ceramic_Disk"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -58,7 +58,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100nF Unpolarized Capacitor"
+			(property "Description" "Unpolarized Capacitor"
 				(at 0 15.748 0)
 				(effects
 					(font
@@ -85,7 +85,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_THT_100nF_0_1"
+			(symbol "C_THT_Ceramic_Disk_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -111,7 +111,7 @@
 					)
 				)
 			)
-			(symbol "C_THT_100nF_1_1"
+			(symbol "C_THT_Ceramic_Disk_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -2315,7 +2315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52927f8c-5afa-4df8-9f92-8fc7efc6c0b1")
-		(property "Reference" "Q5"
+		(property "Reference" "Q6"
 			(at 41.91 45.7199 0)
 			(effects
 				(font
@@ -2372,11 +2372,11 @@
 		(instances
 			(project "motor-controller"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
-					(reference "Q13")
+					(reference "Q14")
 					(unit 1)
 				)
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
-					(reference "Q5")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -2460,7 +2460,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GS_Capacitor_THT:C_THT_100nF")
+		(lib_id "GS_Capacitor_THT:C_THT_Ceramic_Disk")
 		(at 151.13 41.91 90)
 		(mirror x)
 		(unit 1)
@@ -2503,7 +2503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF Unpolarized Capacitor"
+		(property "Description" "Unpolarized Capacitor"
 			(at 135.382 41.91 0)
 			(effects
 				(font
@@ -2542,7 +2542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f1b426d-24e8-4242-b4aa-e39c0ac64d4e")
-		(property "Reference" "Q6"
+		(property "Reference" "Q5"
 			(at 77.47 46.9901 0)
 			(effects
 				(font
@@ -2599,11 +2599,11 @@
 		(instances
 			(project "motor-controller"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
-					(reference "Q14")
+					(reference "Q13")
 					(unit 1)
 				)
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
-					(reference "Q6")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -2723,7 +2723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "931bb901-fbac-4a9e-a625-c35848894094")
-		(property "Reference" "R21"
+		(property "Reference" "R8"
 			(at 27.94 81.28 90)
 			(effects
 				(font
@@ -2775,11 +2775,11 @@
 		(instances
 			(project "dual-h-bridge"
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/4e94ea2c-a108-4be2-8ee4-b6e71c617b37"
-					(reference "R22")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/3cf627b4-179f-4b19-ad57-a5207e12b14c/8bf0a1e8-4227-49ee-854f-9e27e5e507a9"
-					(reference "R21")
+					(reference "R8")
 					(unit 1)
 				)
 			)
