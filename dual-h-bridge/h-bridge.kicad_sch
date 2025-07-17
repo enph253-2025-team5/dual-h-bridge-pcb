@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "H-Bridge")
-		(date "2025-07-09")
-		(rev "v4.0.0")
+		(date "2025-07-17")
+		(rev "v5.0.0")
 		(company "Team 5")
 		(comment 1 "George Sleen")
 	)
@@ -2534,16 +2534,14 @@
 	(symbol
 		(lib_id "GS_Transistors:MOSFET_N-Ch_60V_0.23A_7500mR")
 		(at 71.12 45.72 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8f1b426d-24e8-4242-b4aa-e39c0ac64d4e")
 		(property "Reference" "Q5"
-			(at 77.47 46.9901 0)
+			(at 77.47 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,7 +2550,7 @@
 			)
 		)
 		(property "Value" "VN2222L"
-			(at 77.47 44.4501 0)
+			(at 77.47 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2559,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 76.2 84.836 0)
+			(at 76.2 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +2568,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/VN2222LL%20B082013.pdf"
-			(at 71.12 69.596 0)
+			(at 71.12 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2577,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
-			(at 71.12 82.296 0)
+			(at 71.12 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2861,16 +2859,14 @@
 	(symbol
 		(lib_id "GS_Transistors:MOSFET_N-Ch_60V_0.23A_7500mR")
 		(at 71.12 88.9 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9cad1f7e-b758-4fd1-8406-959092adfdc9")
 		(property "Reference" "Q10"
-			(at 77.47 90.1701 0)
+			(at 77.47 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +2875,7 @@
 			)
 		)
 		(property "Value" "VN2222L"
-			(at 77.47 87.6301 0)
+			(at 77.47 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +2884,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 76.2 128.016 0)
+			(at 76.2 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +2893,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/VN2222LL%20B082013.pdf"
-			(at 71.12 112.776 0)
+			(at 71.12 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2906,7 +2902,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
-			(at 71.12 125.476 0)
+			(at 71.12 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
